@@ -1,0 +1,92 @@
+html,body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Navbar Style*/
+.navbar .container{
+    margin: auto;
+    display: inline-block;
+    font-weight: bold;
+}
+.navbar .container .nav-brand{
+    margin-left: 200px;
+    font-size: 2rem;
+    display: inline-block;
+}
+.navbar .container .nav-brand a{
+    text-decoration: none;
+    color: black;
+
+}
+.navbar .container .nav-nav .nav-ul{
+    font-size: 1.5rem;
+    margin-left: 600px;
+    margin-top:-40px;
+}
+.navbar .container .nav-nav .nav-ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px ;
+}
+.navbar .container .nav-nav .nav-ul li a{
+text-decoration: none;
+color: rgb(122, 121, 121);
+}
+.navbar .container .nav-nav .nav-ul li a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 1s ease-in-out;
+    }
+    .navbar .container .mode {
+        margin-left: 1500px;
+        margin-top: -60px;
+        font-size: 1.5rem;
+    }
+.navbar .container .mode a {
+    text-decoration: none;
+    color: black;
+}
+/*show case style*/
+.showcase{
+    font-weight: bold;
+    margin-top: 300px;
+}
+.showcase .container .content .c{
+    margin-left: 300px;
+    width: 30%;
+    font-size: 1rem;
+}
+.showcase .container .content h1{
+    margin-left: 300px;
+    width: 30%;
+    font-size: 2.5rem;
+}
+.showcase .container .content span{
+    color: rgb(255, 248, 146);
+}
+.showcase .container .content .btn1{
+    margin-left:300px;
+    background-color: rgba(182, 182, 182, 0.61);
+    color: rgb(0, 0, 0);
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    border-style: none;
+    margin-top: 5px;
+}
+.showcase .container .content .btn2{
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    border-style: none;
+    margin: 5px;
+}
+.showcase .container .content .content-image img{
+    margin-left: 870px;
+    width:50%;
+    margin-top: -450px;
+}
